@@ -63,12 +63,12 @@ profile_data(df)
 You can install this tool directly into any virtual environment, Google Colab runtime, or Kaggle notebook:
 
 ```bash
-pip install git+https://github.com/Hazardous9hub/exploratory_data_tool.git
+pip install git+https://github.com/Hazardous9hub/EDA-Data-Profile-Tool.git
 ```
 
 Then in Python:
 ```python
-from exploratory_data_tool import profile_data
+from EDA-Data-Profile-Tool import profile_data
 ```
 
 ---
@@ -78,7 +78,7 @@ Don't want to install anything? Fetch and run it on the fly:
 
 ```python
 # In your Colab notebook cell:
-!curl -O https://raw.githubusercontent.com/Hazardous9hub/exploratory_data_tool/main/eda_tools.py
+!curl -O https://raw.githubusercontent.com/Hazardous9hub/EDA-Data-Profile-Tool/main/eda_tools.py
 from eda_tools import profile_data
 
 # Run profile
@@ -88,7 +88,7 @@ profile_data(df)
 ---
 
 ### Option 3: Local Script / Drop-in File
-Download [`eda_tools.py`](https://raw.githubusercontent.com/Hazardous9hub/exploratory_data_tool/main/eda_tools.py) into your project root or `utils/` directory:
+Download [`eda_tools.py`](https://raw.githubusercontent.com/Hazardous9hub/EDA-Data-Profile-Tool/main/eda_tools.py) into your project root or `utils/` directory:
 
 ```python
 from eda_tools import profile_data
