@@ -2,7 +2,8 @@
 
 <div style="display: flex; align-items: flex-start;">
   <img src="https://techstack-generator.vercel.app/python-icon.svg" alt="icon" width="65" height="65" />
-</div> 
+  <img src="assets/numpy-icon.svg" alt="NumPy" width="65" height="65" />
+</div>
 
 [![Python Version](https://img.shields.io/badge/python-3.8+-blue.svg?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org/)
